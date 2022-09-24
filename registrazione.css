@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-color: grey;
+    border-bottom: inset 1px;
+    box-shadow: 0px 0px 5px;
+    text-shadow: 1px 1px 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.btn-group:hover{
+    cursor:pointer;
+}
+
+.menu{
+    font-size: 3vh;
+    color: black;
+}
+.menu:hover{
+    background-image: linear-gradient(to right ,rgba(0,220,255,1),
+    rgba(47,58,255,1),
+    rgba(144,41,255,1),
+    rgba(255,44,44,1),
+    rgba(255,139,44,1),
+    rgba(255,249,44,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:  transparent ; 
+    text-shadow: none;
+    font-weight: 800;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+form{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.btn{
+    background: rgb(0,220,255);
+    background: linear-gradient(288deg, rgba(0,220,255,1) 11%, rgba(47,58,255,1) 25%, rgba(144,41,255,1) 41%, rgba(255,44,44,1) 58%, rgba(255,139,44,1) 75%, rgba(255,249,44,1) 90%);
+    border: transparent;
+}
+
+html, body { height: 100%; }
+
+.container {
+    
+    height: 100%;
+    
+}
+
+.footer, .push {
+    height: 100px; 
+}
+
+footer{
+    width: 100vw;
+    background-color: white;
+    box-shadow: 0px 0px 2px;
+    text-align: center;
+    font-size: 70%;
+    display: flex;
+    justify-content:space-around;
+}
+
+*{
+    box-sizing: border-box;
+}

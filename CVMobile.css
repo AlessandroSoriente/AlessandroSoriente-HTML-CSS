@@ -1,0 +1,122 @@
+@media screen and (max-width: 1000px){
+
+
+.blackwall{
+    justify-content: center;
+}
+#NameBlog{
+    padding: 0px;
+    align-self: center;
+    text-align: center;
+    font-size: 300%;
+}
+.top{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    
+}
+#boximg{
+    display: none;
+}
+#img{
+    display: none;
+}
+#io{
+    object-fit: contain;
+    display: flex;
+    position: relative;
+    bottom: 10%;
+    padding-top: 10%;
+
+}
+@media only screen and (max-width: 400px){
+    #NameBlog{
+        font-size: 200%;
+    }
+    #io{
+        margin: 10%;
+        width: 80%;
+    }
+}
+
+
+
+
+.BoxContatti{
+    position: relative;
+    top: 200%;
+    bottom: 0vh;
+    width: 30%;
+    margin-right: 0%;
+    left: 20%;
+}
+
+.title{
+    border-top: solid black 0.6vh;
+    font-weight: 700;
+    font-size: 6vw;
+    
+}
+.dati{
+    position: relative;
+    display: block;
+    width: 200%;
+
+}
+.social{
+    background-size: contain;
+    display: inline-block;
+    width: 6vw;
+    height: 10vh;
+    border-radius: 10%;
+}
+
+
+.paragrafo{
+    font-size: 4vw;
+}
+.BoxContatti>.title{
+    width: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+.foglio{
+    flex-direction: column;
+    align-items: center;
+}
+.left{
+    width: 100%;
+}
+#panoramica, #areaDiCompetenza, #altreCompetenze, #IstruzioneFormazione{
+    width: 100%;
+}
+.titleExp{
+    font-size: 5.5vw;
+}
+
+p, li{
+    font-size: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+}

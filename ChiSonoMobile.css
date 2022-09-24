@@ -1,0 +1,66 @@
+@media screen and (max-width: 1000px){
+
+body{
+    background-color: #E5E9EC;
+    background-image: url(./img/wallpeapermobile.png);
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.menu{
+    font-size: 150%;
+    margin-bottom: 0%;
+}
+
+
+.container{
+    margin-left: 0px;
+}
+
+
+aside{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 10%;
+
+}
+.social{
+    width: 5vw;
+    height: auto;
+    padding: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
