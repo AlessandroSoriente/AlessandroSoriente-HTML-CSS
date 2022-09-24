@@ -1,0 +1,62 @@
+@media screen and (max-width: 1000px){
+    #NameBlog{
+        width: 70%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12vw;
+        color:white;
+        text-align: center;
+    }
+    aside{
+        display: none;
+    }
+    article{
+        width: 98%;
+        margin: 0;
+        margin-left: 1%;
+    }
+
+    #titleOpinion{
+        text-align: center;
+    }
+    .rigoOp{
+        flex-direction: column;
+        text-align: center;
+    }
+    .boxImgSX{
+        height: 100px;
+        padding: 0px 1%;
+        width: 100px;
+        position: relative;
+        margin-bottom: -15%;
+        margin-top: 12%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .boxImgArticle{
+        width: 20vh;
+        height: 20vh;
+    }
+    .imgArticle{
+        background-image: url(./img/cervello.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 61%;
+        border-radius: 10%;
+    }
+    #socialFooter{
+        display: flex;
+        width: 50%;
+        height: auto;
+        padding: 0% 10%;
+        margin-left: 0%;
+        margin-top: 0%;
+        position: relative;
+        left: 25%;
+
+    }
+}
